@@ -694,7 +694,7 @@ footer .fine{grid-column:1/-1;border-top:1px solid #44474c;padding-top:18px;font
         <p class="lead" style="margin-top:14px">We review your drawing, recommend a casting and machining route, and send a quote with tooling shown separately.</p>
         <dl class="loc">
           <div><dt>Facility</dt><dd>Mineral Wells Airport (KMWL)<br>Mineral Wells, Texas</dd></div>
-          <div><dt>Email</dt><dd><a href="mailto:erica.v@p3dmfg.com">erica.v@p3dmfg.com</a></dd></div>
+          <div><dt>Email</dt><dd><a href="mailto:contact@metalwerxmfg.com">contact@metalwerxmfg.com</a></dd></div>
           <div><dt>Phone</dt><dd><a href="tel:+14806859762">480-685-9762</a></dd></div>
         </dl>
       </div>
@@ -737,7 +737,7 @@ footer .fine{grid-column:1/-1;border-top:1px solid #44474c;padding-top:18px;font
     <div>
       <h4>Contact</h4>
       <ul>
-        <li>erica.v@p3dmfg.com</li>
+        <li>contact@metalwerxmfg.com</li>
         <li>480-685-9762</li>
         <li>Mineral Wells, Texas</li>
         <li><a href="#contact">Request a quote</a></li>
@@ -788,8 +788,8 @@ footer .fine{grid-column:1/-1;border-top:1px solid #44474c;padding-top:18px;font
     const f=new FormData(this), msg=document.getElementById('formMsg');
     if(!f.get('name')||!f.get('email')){msg.textContent='Please add your name and email so we can reply.';return;}
     const body=['Name: '+f.get('name'),'Company: '+f.get('company'),'Email: '+f.get('email'),'Phone: '+f.get('phone'),'Process: '+f.get('process'),'Target quantity: '+f.get('qty'),'','Part details:',f.get('msg')].join('\n');
-    window.location.href='mailto:erica.v@p3dmfg.com?subject='+encodeURIComponent('Quote request: '+(f.get('company')||f.get('name')))+'&body='+encodeURIComponent(body);
-    msg.textContent='Your email app should open with the request filled in. If it doesn’t, email erica.v@p3dmfg.com or call 480-685-9762.';
+    window.location.href='mailto:contact@metalwerxmfg.com?subject='+encodeURIComponent('Quote request: '+(f.get('company')||f.get('name')))+'&body='+encodeURIComponent(body);
+    msg.textContent='Your email app should open with the request filled in. If it doesn’t, email contact@metalwerxmfg.com or call 480-685-9762.';
   });
 })();
 </script>
